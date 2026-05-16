@@ -1,5 +1,3 @@
-# Schematic-defect-detection
-Schematic defect detection
 # 电路原理图极性错误检测系统
 
 本项目用于在 PyCharm 中搭建一个“YOLOv8-Pose + OCR + 导线网络提取 + 拓扑规则判断”的原理图元器件极性错误检测系统。

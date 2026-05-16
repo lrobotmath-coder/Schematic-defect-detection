@@ -1,0 +1,97 @@
+# 电路元器件极性错误检测系统配置
+model:
+  # 训练完成后，best.pt 默认会在 runs/pose/circuit_polarity_pose/weights/best.pt
+  pose_weights: E:/loadpython/CircuitPolarityChecker/runs/pose/circuit_polarity_pose_aug_v2/weights/best.pt
+  conf: 0.05
+  imgsz: 1280
+  device: 0
+
+ocr:
+  # none: 不启用 OCR；paddle: 启用 PaddleOCR，需额外安装 PaddleOCR 和 PaddlePaddle
+  backend: paddle
+  keywords:
+   - VCC
+    - VDD
+    - VIN
+    - VOUT
+    - OUT
+    - out
+    - SOUT
+    - sout
+    - SW
+    - LX
+    - PHASE
+    - DRAIN
+    - IN
+    - in
+    - LOAD
+    - OUTPUT
+    - GND
+    - gnd
+    - PGND
+    - AGND
+    - DGND
+    - VSS
+    - 0V
+    - 3V3
+    - 3.3V
+    - 5V
+    - +3.3V
+    - +5V
+    - 12V
+    - 24V
+    - VBAT
+    - BAT
+    - PWR
+    - PWR_FLAG
+    - D1
+    - D2
+    - D3
+    - D4
+    - LED
+    - LED1
+    - LED2
+    - Q1
+    - Q2
+    - Q3
+    - NMOS
+    - PMOS
+    - MOS
+    - MOSFET
+    - NPN
+    - PNP
+    - R1
+    - R2
+    - R3
+    - R4
+    - C1
+    - C2
+    - C3
+    - C4
+    - L1
+    - L2
+    - L3
+    - COIL
+    - VBUS
+    - VBUS(+5V)
+    - VBUS (+5V)
+    - OUT
+    - IN
+    - EN
+    - GND
+    - PGND
+    - AGND
+    - DGND
+    - MOTOR
+    - RELAY
+    - K1
+    - K2
+wire:
+  # KiCad/EasyEDA 常见绿色导线阈值，若你的图线颜色不同，可在这里调整
+  min_area: 30
+  pin_search_radius: 70
+  ocr_search_radius: 220
+
+rules:
+  # 是否只输出明确违反规则的故障；false 时同时输出 warning/unknown
+  only_danger: false
