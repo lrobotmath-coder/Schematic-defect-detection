@@ -1,0 +1,30 @@
+{
+  "case_id": "case_009",
+  "image": "images/fault/case_009_fault.png",
+  "source_file": "images/fault/9.png",
+  "paired_normal_image": "images/normal/case_009_normal.png",
+  "split": "test",
+  "label": "fault",
+  "fault_category": "polarity_fault",
+  "image_size": {
+    "width": 1580,
+    "height": 836
+  },
+  "faults": [
+    {
+      "fault_type": "diode_reverse",
+      "target": "D1",
+      "fault_bbox": [
+        1120,
+        455,
+        1245,
+        555
+      ],
+      "note": "右侧二极管 D1 极性反接/方向异常",
+      "bbox_format": "xyxy_pixel",
+      "level": "danger",
+      "description": "右侧二极管 D1 极性反接/方向异常",
+      "annotation_status": "initial_bbox_needs_quick_review"
+    }
+  ]
+}

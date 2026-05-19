@@ -1,0 +1,12 @@
+{
+  "case_id": "case_005",
+  "image": "images/normal/case_005_normal.png",
+  "source_file": "images/normal/5.png",
+  "split": "test",
+  "label": "normal",
+  "image_size": {
+    "width": 1655,
+    "height": 697
+  },
+  "faults": []
+}

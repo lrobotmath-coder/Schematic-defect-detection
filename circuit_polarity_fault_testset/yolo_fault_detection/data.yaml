@@ -1,0 +1,8 @@
+# YOLO fault-location test set
+path: ../yolo_fault_detection
+train: images/test
+val: images/test
+test: images/test
+
+names:
+  0: polarity_fault

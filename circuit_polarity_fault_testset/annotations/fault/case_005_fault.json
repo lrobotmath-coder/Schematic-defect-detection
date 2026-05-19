@@ -1,0 +1,30 @@
+{
+  "case_id": "case_005",
+  "image": "images/fault/case_005_fault.png",
+  "source_file": "images/fault/5.png",
+  "paired_normal_image": "images/normal/case_005_normal.png",
+  "split": "test",
+  "label": "fault",
+  "fault_category": "polarity_fault",
+  "image_size": {
+    "width": 1764,
+    "height": 724
+  },
+  "faults": [
+    {
+      "fault_type": "diode_reverse",
+      "target": "D101",
+      "fault_bbox": [
+        900,
+        270,
+        1030,
+        440
+      ],
+      "note": "Buck 电路续流二极管 D101 极性反接/方向异常",
+      "bbox_format": "xyxy_pixel",
+      "level": "danger",
+      "description": "Buck 电路续流二极管 D101 极性反接/方向异常",
+      "annotation_status": "initial_bbox_needs_quick_review"
+    }
+  ]
+}

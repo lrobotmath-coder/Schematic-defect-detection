@@ -1,0 +1,422 @@
+[
+  {
+    "case_id": "case_001",
+    "image": "images/normal/case_001_normal.png",
+    "source_file": "images/normal/1.png",
+    "split": "test",
+    "label": "normal",
+    "image_size": {
+      "width": 1708,
+      "height": 872
+    },
+    "faults": []
+  },
+  {
+    "case_id": "case_001",
+    "image": "images/fault/case_001_fault.png",
+    "source_file": "images/fault/1.png",
+    "paired_normal_image": "images/normal/case_001_normal.png",
+    "split": "test",
+    "label": "fault",
+    "fault_category": "polarity_fault",
+    "image_size": {
+      "width": 1689,
+      "height": 840
+    },
+    "faults": [
+      {
+        "fault_type": "diode_reverse",
+        "target": "D1",
+        "fault_bbox": [
+          875,
+          80,
+          1030,
+          205
+        ],
+        "note": "普通二极管极性反接/方向异常",
+        "bbox_format": "xyxy_pixel",
+        "level": "danger",
+        "description": "普通二极管极性反接/方向异常",
+        "annotation_status": "initial_bbox_needs_quick_review"
+      }
+    ]
+  },
+  {
+    "case_id": "case_002",
+    "image": "images/normal/case_002_normal.png",
+    "source_file": "images/normal/2.png",
+    "split": "test",
+    "label": "normal",
+    "image_size": {
+      "width": 1138,
+      "height": 493
+    },
+    "faults": []
+  },
+  {
+    "case_id": "case_002",
+    "image": "images/fault/case_002_fault.png",
+    "source_file": "images/fault/2.png",
+    "paired_normal_image": "images/normal/case_002_normal.png",
+    "split": "test",
+    "label": "fault",
+    "fault_category": "polarity_fault",
+    "image_size": {
+      "width": 1184,
+      "height": 549
+    },
+    "faults": [
+      {
+        "fault_type": "schottky_diode_reverse",
+        "target": "D1",
+        "fault_bbox": [
+          170,
+          170,
+          330,
+          285
+        ],
+        "note": "肖特基二极管 D1 极性反接/方向异常",
+        "bbox_format": "xyxy_pixel",
+        "level": "danger",
+        "description": "肖特基二极管 D1 极性反接/方向异常",
+        "annotation_status": "initial_bbox_needs_quick_review"
+      }
+    ]
+  },
+  {
+    "case_id": "case_003",
+    "image": "images/normal/case_003_normal.png",
+    "source_file": "images/normal/3.png",
+    "split": "test",
+    "label": "normal",
+    "image_size": {
+      "width": 1165,
+      "height": 485
+    },
+    "faults": []
+  },
+  {
+    "case_id": "case_003",
+    "image": "images/fault/case_003_fault.png",
+    "source_file": "images/fault/3.png",
+    "paired_normal_image": "images/normal/case_003_normal.png",
+    "split": "test",
+    "label": "fault",
+    "fault_category": "polarity_fault",
+    "image_size": {
+      "width": 1128,
+      "height": 546
+    },
+    "faults": [
+      {
+        "fault_type": "led_reverse",
+        "target": "D2",
+        "fault_bbox": [
+          815,
+          215,
+          965,
+          370
+        ],
+        "note": "LED D2 极性反接/方向异常",
+        "bbox_format": "xyxy_pixel",
+        "level": "danger",
+        "description": "LED D2 极性反接/方向异常",
+        "annotation_status": "initial_bbox_needs_quick_review"
+      }
+    ]
+  },
+  {
+    "case_id": "case_004",
+    "image": "images/normal/case_004_normal.png",
+    "source_file": "images/normal/4.png",
+    "split": "test",
+    "label": "normal",
+    "image_size": {
+      "width": 1394,
+      "height": 811
+    },
+    "faults": []
+  },
+  {
+    "case_id": "case_004",
+    "image": "images/fault/case_004_fault.png",
+    "source_file": "images/fault/4.png",
+    "paired_normal_image": "images/normal/case_004_normal.png",
+    "split": "test",
+    "label": "fault",
+    "fault_category": "polarity_fault",
+    "image_size": {
+      "width": 1349,
+      "height": 791
+    },
+    "faults": [
+      {
+        "fault_type": "zener_diode_reverse",
+        "target": "D1",
+        "fault_bbox": [
+          785,
+          55,
+          925,
+          155
+        ],
+        "note": "齐纳/稳压二极管 D1 极性反接/方向异常",
+        "bbox_format": "xyxy_pixel",
+        "level": "danger",
+        "description": "齐纳/稳压二极管 D1 极性反接/方向异常",
+        "annotation_status": "initial_bbox_needs_quick_review"
+      }
+    ]
+  },
+  {
+    "case_id": "case_005",
+    "image": "images/normal/case_005_normal.png",
+    "source_file": "images/normal/5.png",
+    "split": "test",
+    "label": "normal",
+    "image_size": {
+      "width": 1655,
+      "height": 697
+    },
+    "faults": []
+  },
+  {
+    "case_id": "case_005",
+    "image": "images/fault/case_005_fault.png",
+    "source_file": "images/fault/5.png",
+    "paired_normal_image": "images/normal/case_005_normal.png",
+    "split": "test",
+    "label": "fault",
+    "fault_category": "polarity_fault",
+    "image_size": {
+      "width": 1764,
+      "height": 724
+    },
+    "faults": [
+      {
+        "fault_type": "diode_reverse",
+        "target": "D101",
+        "fault_bbox": [
+          900,
+          270,
+          1030,
+          440
+        ],
+        "note": "Buck 电路续流二极管 D101 极性反接/方向异常",
+        "bbox_format": "xyxy_pixel",
+        "level": "danger",
+        "description": "Buck 电路续流二极管 D101 极性反接/方向异常",
+        "annotation_status": "initial_bbox_needs_quick_review"
+      }
+    ]
+  },
+  {
+    "case_id": "case_006",
+    "image": "images/normal/case_006_normal.png",
+    "source_file": "images/normal/6.png",
+    "split": "test",
+    "label": "normal",
+    "image_size": {
+      "width": 1123,
+      "height": 273
+    },
+    "faults": []
+  },
+  {
+    "case_id": "case_006",
+    "image": "images/fault/case_006_fault.png",
+    "source_file": "images/fault/6.png",
+    "paired_normal_image": "images/normal/case_006_normal.png",
+    "split": "test",
+    "label": "fault",
+    "fault_category": "polarity_fault",
+    "image_size": {
+      "width": 1193,
+      "height": 309
+    },
+    "faults": [
+      {
+        "fault_type": "schottky_diode_reverse",
+        "target": "D1",
+        "fault_bbox": [
+          390,
+          140,
+          485,
+          225
+        ],
+        "note": "肖特基二极管 D1 极性反接/方向异常",
+        "bbox_format": "xyxy_pixel",
+        "level": "danger",
+        "description": "肖特基二极管 D1 极性反接/方向异常",
+        "annotation_status": "initial_bbox_needs_quick_review"
+      }
+    ]
+  },
+  {
+    "case_id": "case_007",
+    "image": "images/normal/case_007_normal.png",
+    "source_file": "images/normal/7.png",
+    "split": "test",
+    "label": "normal",
+    "image_size": {
+      "width": 1563,
+      "height": 778
+    },
+    "faults": []
+  },
+  {
+    "case_id": "case_007",
+    "image": "images/fault/case_007_fault.png",
+    "source_file": "images/fault/7.png",
+    "paired_normal_image": "images/normal/case_007_normal.png",
+    "split": "test",
+    "label": "fault",
+    "fault_category": "polarity_fault",
+    "image_size": {
+      "width": 1611,
+      "height": 813
+    },
+    "faults": [
+      {
+        "fault_type": "diode_reverse",
+        "target": "D1/D2",
+        "fault_bbox": [
+          1130,
+          440,
+          1285,
+          660
+        ],
+        "note": "右侧整流/续流二极管区域存在极性方向异常，建议人工复核具体 D1 或 D2",
+        "bbox_format": "xyxy_pixel",
+        "level": "danger",
+        "description": "右侧整流/续流二极管区域存在极性方向异常，建议人工复核具体 D1 或 D2",
+        "annotation_status": "initial_bbox_needs_quick_review"
+      }
+    ]
+  },
+  {
+    "case_id": "case_008",
+    "image": "images/normal/case_008_normal.png",
+    "source_file": "images/normal/8.png",
+    "split": "test",
+    "label": "normal",
+    "image_size": {
+      "width": 1563,
+      "height": 778
+    },
+    "faults": []
+  },
+  {
+    "case_id": "case_008",
+    "image": "images/fault/case_008_fault.png",
+    "source_file": "images/fault/8.png",
+    "paired_normal_image": "images/normal/case_008_normal.png",
+    "split": "test",
+    "label": "fault",
+    "fault_category": "polarity_fault",
+    "image_size": {
+      "width": 1575,
+      "height": 825
+    },
+    "faults": [
+      {
+        "fault_type": "diode_reverse",
+        "target": "D3",
+        "fault_bbox": [
+          480,
+          560,
+          560,
+          690
+        ],
+        "note": "左侧二极管 D3 极性反接/方向异常",
+        "bbox_format": "xyxy_pixel",
+        "level": "danger",
+        "description": "左侧二极管 D3 极性反接/方向异常",
+        "annotation_status": "initial_bbox_needs_quick_review"
+      }
+    ]
+  },
+  {
+    "case_id": "case_009",
+    "image": "images/normal/case_009_normal.png",
+    "source_file": "images/normal/9.png",
+    "split": "test",
+    "label": "normal",
+    "image_size": {
+      "width": 1563,
+      "height": 778
+    },
+    "faults": []
+  },
+  {
+    "case_id": "case_009",
+    "image": "images/fault/case_009_fault.png",
+    "source_file": "images/fault/9.png",
+    "paired_normal_image": "images/normal/case_009_normal.png",
+    "split": "test",
+    "label": "fault",
+    "fault_category": "polarity_fault",
+    "image_size": {
+      "width": 1580,
+      "height": 836
+    },
+    "faults": [
+      {
+        "fault_type": "diode_reverse",
+        "target": "D1",
+        "fault_bbox": [
+          1120,
+          455,
+          1245,
+          555
+        ],
+        "note": "右侧二极管 D1 极性反接/方向异常",
+        "bbox_format": "xyxy_pixel",
+        "level": "danger",
+        "description": "右侧二极管 D1 极性反接/方向异常",
+        "annotation_status": "initial_bbox_needs_quick_review"
+      }
+    ]
+  },
+  {
+    "case_id": "case_010",
+    "image": "images/normal/case_010_normal.png",
+    "source_file": "images/normal/10.png",
+    "split": "test",
+    "label": "normal",
+    "image_size": {
+      "width": 1563,
+      "height": 778
+    },
+    "faults": []
+  },
+  {
+    "case_id": "case_010",
+    "image": "images/fault/case_010_fault.png",
+    "source_file": "images/fault/10.png",
+    "paired_normal_image": "images/normal/case_010_normal.png",
+    "split": "test",
+    "label": "fault",
+    "fault_category": "polarity_fault",
+    "image_size": {
+      "width": 1594,
+      "height": 831
+    },
+    "faults": [
+      {
+        "fault_type": "diode_reverse",
+        "target": "D2",
+        "fault_bbox": [
+          1210,
+          565,
+          1310,
+          675
+        ],
+        "note": "右侧二极管 D2 极性反接/方向异常",
+        "bbox_format": "xyxy_pixel",
+        "level": "danger",
+        "description": "右侧二极管 D2 极性反接/方向异常",
+        "annotation_status": "initial_bbox_needs_quick_review"
+      }
+    ]
+  }
+]
